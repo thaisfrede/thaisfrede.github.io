@@ -1,2 +1,5 @@
 # thaisfrede.github.io
-# O link para execução desse código está no README do branch: Atividade Contínua 2 - Impacta
+# Atividade Contínua 2 - Impacta
+
+O link para execução do exercício 1:
+https://thaisfrede.github.io/AC2
