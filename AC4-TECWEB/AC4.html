@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title>AC4 - TECNOLOGIA WEB</title>
+    	<meta charset="utf-8" />
+    	<link rel="stylesheet" href="AC4CSS.css">
+
+    </head>
+    <body> 
+    	<header>
+			<!-- PARTICIPANTES -->
+			<span class="Negrito">Turma: </span>ADS - 2º C - NOTURNO - SALA: A307<br><br>
+			<span class="Negrito Sublinhado Italico">PARTICIPANTES:</span>
+			<ol>
+				<li>Eduardo Tolentino da Conceição de Almeida - <span class="Negrito">RA:</span> 1800270</li>
+				<li>Thais Frederico da Silva - <span class="Negrito">RA:</span> 1800267</li>
+			</ol> 
+		</header>
+		<article>
+			<section>
+				<h1 class="Title">FORMULÁRIO ALUNOS</h1>
+				<center>
+				<form>
+					<label class="Italico"> Nome Completo:</label><br>
+					<input type=textNome maxlength="20"><br>
+
+					<label class="Italico"> Endereço:</label><br>
+					<input type=textEndereco maxlength="30"><br>
+
+					<label class="Italico"> Cidade:</label><br>
+					<input type=textCidade maxlength="20">
+
+					<label class="Italico"> UF:</label>
+					<select>
+						<option>  </option>
+						<option>AC</option>
+						<option>AL</option>
+						<option>AM</option>
+						<option>AP</option>
+						<option>BA</option>
+						<option>CE</option>
+						<option>DF</option>
+						<option>ES</option>
+						<option>GO</option>
+						<option>MA</option>
+						<option>MG</option>
+						<option>MS</option>
+						<option>MT</option>
+						<option>PA</option>
+						<option>PB</option>
+						<option>PE</option>
+						<option>PI</option>
+						<option>PR</option>
+						<option>RJ</option>
+						<option>RN</option>
+						<option>RO</option>
+						<option>RR</option>
+						<option>RS</option>
+						<option>SC</option>
+						<option>SE</option>
+						<option>SP</option>
+						<option>TO</option>
+					</select><br>
+					<label class="Italico"> RG:</label><br>
+					<input type=textRGCPF title="Informe somente números" pattern="[0-9]+$" maxlength="9"><br>	
+
+					<label class="Italico"> CPF:</label><br>
+					<input type=textRGCPF title="Informe somente números" pattern="[0-9]+$" maxlength="11"><br>
+
+					<label class="Italico"> E-MAIL:</label><br>
+					<input type=email maxlength="20"><br><br>
+
+					<label class="Italico">REDES SOCIAIS</label><br>
+					<input type="checkbox" name="Facebook">Facebook<br/>
+                    <input type="checkbox" name="Twitter">Twitter<br/>
+                    <input type="checkbox" name="WhatsApp">WhatsApp<br/>
+					<input type="checkbox" name="Outros">Outros <input type=textOutros maxlength="20"><br/><br/>
+
+					<label class="Italico">CURSO:</label><br>
+					<input type="radio" name="Curso" value="Redes">Redes 
+                    <input type="radio" name="Curso" value="SI">SI
+                    <input type="radio" name="Curso" value="ADS">ADS<br/><br/>
+					
+					<label class="Italico">MENSAGEM:</label><br>
+					<textarea maxlength="100"> </textarea>
+
+					<br><br><input type="submit" value="Enviar"><br><br>	
+				</form>
+				</center>
+			</section>
+		</article>
+	</body>	
+</html>		
