@@ -1,0 +1,115 @@
+.Title{
+	color: #04B4AE;
+	font-style: italic;
+	text-decoration: underline;
+	font-size: 30px;
+	text-align: center;
+	
+}
+.Negrito{
+	font-weight: bolder;
+}
+.Sublinhado{
+	text-decoration: underline;
+}
+.Italico{
+	font-style: italic;
+}
+
+input[type=textNome]{
+	width: 20%;
+    background-color: #81BEF7;
+    font-weight: bolder;
+}
+
+input[type=textNome]:focus{
+	width: 20%;
+    background-color: white;
+    font-weight: bolder;
+}
+
+input[type=textEndereco]{
+	width: 30%;
+    background-color: #81BEF7;
+    font-weight: bolder;
+}
+
+input[type=textEndereco]:focus{
+	width: 30%;
+    background-color: white;
+    font-weight: bolder;
+}
+
+input[type=textCidade]{
+	width: 10%;
+    background-color: #81BEF7;
+    font-weight: bolder;
+}
+
+input[type=textCidade]:focus{
+	width: 10%;
+    background-color: white;
+    font-weight: bolder;
+}
+
+
+input[type=textRGCPF]{
+	width: 10%;
+    background-color: #81BEF7;
+    font-weight: bolder;
+}
+
+input[type=textRGCPF]:focus{
+	width: 10%;
+    background-color: white;
+    font-weight: bolder;
+}
+
+input[type=textOutros]{
+	width: 15%;
+    background-color: #81BEF7;
+    font-weight: bolder;
+}
+
+input[type=textOutros]:focus{
+	width: 15%;
+    background-color: white;
+    font-weight: bolder;
+}
+
+select:focus{
+	background-color: white;
+    font-weight: bolder;
+}
+
+select{
+	background-color: #81BEF7;
+    font-weight: bolder;
+}
+input[type=email]{    
+    background-color: #81BEF7;
+    font-weight: bolder;
+	width: 20%;
+		
+}
+
+input[type=email]:focus{
+    width: 20%;
+    background-color: white;
+    font-weight: bolder;
+	
+}
+
+textarea:focus{
+	background-color: white;
+    font-weight: bolder;
+    width:300px;
+  	height:100px;
+}
+
+textarea{
+	background-color: #81BEF7;
+    font-weight: bolder;
+ 	width:300px;
+  	height:100px;
+}
